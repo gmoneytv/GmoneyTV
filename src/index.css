@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-primary: #ffffff;
+    --text-primary: #000000;
+    --bg-secondary: #efefef;
+    --text-secondary: #101010;
+}
+
+.bg-primary {
+    background-color: var(--bg-primary)
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+.bg-secondary {
+    background-color: var(--bg-secondary)
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+html,
+body {
+    @apply font-sans;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+main,
+header,
+section {
+    width: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+section {
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a:not(.not-link) {
+    font-style: italic;
+}
+
+a:not(.not-link):hover {
+    text-decoration: underline;
+    text-decoration-color: #ff3d00;
+}
+
+a.button-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, .15);
+}
