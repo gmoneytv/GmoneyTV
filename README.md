@@ -1,10 +1,5 @@
 ## Hi there 👋
 
-<!--
-**gmoneytv/GmoneyTV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 We’re currently working on GmoneyTV
 - 🌱 We’re currently learning React
 - 👯 We’re looking to collaborate on anything
@@ -13,4 +8,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: support@flappygrant.com
 - 😄 Pronouns: they/them
 - ⚡ Fun fact: GmoneyTV promotes deserving content over brainrot
--->
